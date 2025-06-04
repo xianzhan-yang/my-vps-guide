@@ -1,4 +1,4 @@
-# ✅ Complete Deployment Guide: VLESS + WS + TLS + CDN + WARP (ENGLISH)
+# ✅ Complete Deployment Guide: VLESS + WS + TLS + CDN + WARP
 
 ---
 
