@@ -9,7 +9,7 @@
 ### 🪜 Steps:
 
 1. Sign up for an account
-2. Search for your desired domain (e.g., `wolverhamptonini.top`)
+2. Search for your desired domain 
 3. Add to cart, proceed to payment
 4. After registration, go to **"Manage My Domains"**
 5. Set nameservers (Cloudflare will provide them in step 2)
@@ -28,10 +28,9 @@
 
 ### 🧭 Add DNS Records:
 
-| Type | Name | Value (Your VPS IP) | Proxy   |
-| ---- | ---- | ------------------- | ------- |
-| A    | @    | YOUR.VPS.IP.ADDRESS | Proxied |
-| A    | www  | YOUR.VPS.IP.ADDRESS | Proxied |
+| Type | Name        | Value (Your VPS IP) | Proxy   |
+| ---- | ----------- | ------------------- | ------- |
+| A    | Domain Name | YOUR.VPS.IP.ADDRESS | Proxied |
 
 ⚠️ Ensure the orange cloud icon is ON (CDN active)
 
@@ -235,7 +234,7 @@ No SOCKS5 setup needed unless manually required.
 ### VLESS URI:
 
 ```
-vless://YOUR_UUID@wolverhamptonini.top:443?encryption=none&security=tls&type=ws&host=wolverhamptonini.top&path=%2Fxz#WolverCDN
+vless://YOUR_UUID@wolverhamptonini.top:443?encryption=none&security=tls&type=ws&host=domainname&path=%2Fxz#WolverCDN
 ```
 
 ---
